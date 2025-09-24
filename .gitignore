@@ -1,0 +1,37 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build cache
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# Vendor (if not using Go modules)
+vendor/
+
+# IDE / Editor stuff
+.vscode/
+.idea/
+*.iml
+
+# Env & config
+.env
+.env.local
+.env.*.local
+
+# Database & migrations
+*.db
+migrations/*.lock
+
+# Coverage / testing
+coverage.out
+
