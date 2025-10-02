@@ -1,0 +1,11 @@
+BEGIN;
+
+DROP TABLE IF EXISTS tasks;
+DROP TABLE IF EXISTS projects_org_created_idx;
+DROP TABLE IF EXISTS projects;
+DROP TABLE IF EXISTS org_memberships;
+DROP TABLE IF EXISTS orgs;
+DROP TABLE IF EXISTS user_email_lower_ux;
+DROP TABLE IF EXISTS users;
+
+COMMIT;
